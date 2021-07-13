@@ -16,12 +16,12 @@ const weatherInfo = [
   },
   {
     weekDey: "Wednesday",
-    imgURL: rain,
+    imgURL: warm,
     temp: "35C",
   },
   {
     weekDey: "Thursday",
-    imgURL: rain,
+    imgURL: sunny,
     temp: "45C",
   },
   {
@@ -31,7 +31,7 @@ const weatherInfo = [
   },
   {
     weekDey: "Saturday",
-    imgURL: warm,
+    imgURL: rain,
     temp: "37C",
   },
   {
@@ -50,7 +50,6 @@ const newArr = weatherInfo.map((item) => {
     </div>
   );
 });
-console.log(newArr);
 
 function App() {
   return <div className="App">{newArr}</div>;
